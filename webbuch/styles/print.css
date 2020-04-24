@@ -239,7 +239,7 @@ p.ador { text-indent: 0; margin-left: 1.6pc; margin-top: 9pt }
 p.adorno { text-indent: 12px; margin-left: 1.6pc; margin-bottom: 9pt}
 p.start { text-indent: 0em; margin-top: 0em }
 p.divide { text-align: center }
-p.author {
+.author {
   color: black;
   font-size: 14pt;
   font-weight: normal;
@@ -890,6 +890,10 @@ h3 + p, h4 + p {
  margin-top: -3pt;
 }
 
+h2+p, h3+p {
+    page-break-after: avoid;
+}
+
 section[data-type="chapter"] {
  /* break-before: page; */
 }
@@ -1059,7 +1063,7 @@ ol.upper-latin {
 
 @-epubx-page-master first-page-cover {
   -epubx-page: 1;
-  background: url("../images/cover.jpg");
+  background: url("../images/cover.png");
   background-size: cover;
 }
 
