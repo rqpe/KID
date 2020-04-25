@@ -904,6 +904,7 @@ section[data-type="chaptertitle"] {
 
 section[data-type="chapter"] {
  break-after: always;
+ break-before: left;
 }
 
 section[data-type="frontmatter"] {
