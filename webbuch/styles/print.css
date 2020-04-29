@@ -253,7 +253,7 @@ p.start { text-indent: 0em; margin-top: 0em }
 p.divide { text-align: center }
 
 
-[data-type="titlepage"] p.author, [data-type="titlepage"] .author {
+p.author , .author {
   color: black;
   font-size: 14pt;
   font-weight: normal;
@@ -375,7 +375,11 @@ blockquote strong {
 
 blockquote  p.att { text-align: right; }
 
-h2, h2 strong,
+h2, h2 strong {
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
+margin-top: 1.5em;
+color: rgb(15,100,167);font-weight: bold;
+}
 h3, h3 strong,
 h4, h4 strong,
 h5,
@@ -383,7 +387,7 @@ h6 {
   font-family: "noto sans", helvetica neue, arial, sans-serif;
   margin-top: 1.5em;
   color: rgb(15,100,167);
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h1 {
@@ -410,7 +414,7 @@ h2 {
   font-size: 15pt;
   font-family: "noto sans", helvetica neue, arial, sans-serif;
   text-transform: none;
-  font-weight: normal;
+  font-weight: 500;
   /*margin: 1.5em 0 1.2em 0;*/
   margin-top: 20pt;
   margin-bottom: 9pt;
@@ -423,26 +427,25 @@ h3 {
   margin-top: 20pt;
   page-break-inside: avoid;
   page-break-after: avoid;
-  font-weight: normal;
+  font-weight: 500;
   margin-bottom: 9pt;
 }
 
 h4 {
-  font-size: 11pt;
+  font-size: 10.5pt;
   margin-top: 20pt;
   margin-bottom: 9pt;
-  font-weight: normal;
+  font-weight: 500;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
 
 h5 {
   font-family : "noto sans", helvetica neue, arial, sans-serif;
-  font-weight: 600;
-  font-size: 10pt;
+  font-weight: 500;
+  font-size: 9pt;
   margin-top: 20pt;
   margin-bottom: 5pt;
-  color: black;
   page-break-inside: avoid;
   page-break-after: avoid;
 }
@@ -1133,6 +1136,9 @@ ol.upper-latin {
 .logo {
   -epubx-flow-into: logo;
 }
+.author {
+  -epubx-flow-into: author;
+}
 
 /* pages layout */
 
@@ -1176,6 +1182,36 @@ ol.upper-latin {
   background-size: cover;
 }
 
+/*
+
+
+
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 18;
+  background-size: cover;
+}
+
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 92;
+  background-size: cover;
+}
+
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 114;
+  background-size: cover;
+}
+
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 120;
+  background-size: cover;
+}
+
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 128;
+  background-size: cover;
+}*/
+
+
 @-epubx-page-master titlepagepage {
   @-epubx-partition body {
     -epubx-flow-from: titlepage;
@@ -1183,15 +1219,23 @@ ol.upper-latin {
     left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
     right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
     top: 18mm;
-    bottom: 24mm;
+    /*bottom: 24mm;*/
   }
+  @-epubx-partition authors {
+   -epubx-flow-from: author;
+   -epubx-required: true;
+   left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
+   right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
+   top: 100mm;
+   /*bottom: 24mm;*/
+ }
    @-epubx-partition logos {
     -epubx-flow-from: logo;
     -epubx-required: true;
     left: -epubx-expr( page-number % 2==1 ? 20mm: 15mm);
     right: -epubx-expr( page-number % 2==0 ? 20mm: 15mm);
     /* height: 7em; */
-    bottom: 24mm;
+    bottom: 14mm;
   }
 }
 
