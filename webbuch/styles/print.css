@@ -1,58 +1,70 @@
+-@font-face {
+    font-family :"noto serif", serif;
+    font-weight : normal;
+    font-style: normal;
+    src : url(../fonts/NotoSerif-Regular.ttf);
+}
+-@font-face {
+    font-family :"noto serif", serif;
+    font-weight : normal;
+    font-style: italic;
+    src : url(../fonts/NotoSerif-Italic.ttf);
+}
+-@font-face {
+    font-family :"noto serif", serif;
+    font-weight : bold;
+    font-style: normal;
+    src : url(../fonts/NotoSerif-Bold.ttf);
+}
+-@font-face {
+    font-family :"noto serif", serif;
+    font-weight : bold;
+    font-style: italic;
+    src : url(../fonts/NotoSerif-BoldItalic.ttf);
+}
 @font-face {
-    font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+    font-family: "noto sans", helvetica neue, arial, sans-serif;
     font-weight : normal;
     font-style: normal;
     src : url(../fonts/NotoSans-Regular.ttf);
 }
 @font-face {
-    font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+    font-family: "noto sans", helvetica neue, arial, sans-serif;
+    font-weight : normal;
+    font-style: italic;
+    src : url(../fonts/NotoSans-Italic.ttf);
+}
+-@font-face {
+    font-family : "noto sans", helvetica neue, arial, sans-serif;
+    font-weight : 500;
+    font-style: normal;
+    src : url(../fonts/NotoSans-Medium.ttf);
+}
+
+-@font-face {
+    font-family : "noto sans", helvetica neue, arial, sans-serif;
+    font-style: bold;
+    font-style: normal;
+    src : url(../fonts/NotoSans-SemiBold.ttf);
+}
+-@font-face {
+    font-family : "noto sans", helvetica neue, arial, sans-serif;
+    font-style: bold;
+    font-style: italic;
+    src : url(../fonts/NotoSans-SemiBoldItalic.ttf);
+}
+/*@font-face {
+    font-family: "noto sans", helvetica neue, arial, sans-serif;
     font-weight : bold;
     font-style: normal;
     src : url(../fonts/NotoSans-Bold.ttf);
 }
 @font-face {
-    font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-    font-weight : normal;
-    font-style: italic;
-    src : url(../fonts/NotoSans-Italic.ttf);
-}
-@font-face {
-    font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+    font-family: "noto sans", helvetica neue, arial, sans-serif;
     font-weight : bold;
     font-style: italic;
     src : url(../fonts/NotoSans-BoldItalic.ttf);
-}
--@font-face {
-    font-family : -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-    font-weight : normal;
-    font-style: normal;
-    src : url(../fonts/NotoSans-Medium.ttf);
-}
--@font-face {
-    font-family : -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-    font-weight : normal;
-    font-style: normal;
-    src : url(../fonts/NotoSerif-Regular.ttf);
-}
--@font-face {
-    font-family : -apple-system,BlinkMacSystemFont,"noto sans medium",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-    font-weight : normal;
-    font-style: normal;
-    src : url(../fonts/NotoSans-Medium.ttf);
-}
--@font-face {
-    font-family : -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-    font-weight : normal;
-    font-style: normal;
-    src : url(../fonts/NotoSerif-Regular.ttf);
-}
-
--@font-face {
-    font-family : -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-    font-weight : 800;
-    font-style: normal;
-    src : url(../fonts/NotoSans-ExtraBold.ttf);
-}
+}*/
 
 .noindent p + p {
   text-indent: 0;
@@ -78,7 +90,7 @@ h3.titlepageSub {
 }
 
 p.titlepagePar {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
 }
 
 p.titlepageSub {
@@ -99,7 +111,7 @@ p.titlepageSub {
 
 .logo p {
  color: black;
- font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+ font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-size: 9pt;
   font-weight: 300;
   margin-top: 24pt;
@@ -189,7 +201,7 @@ video {
 }
 
 html {
-  font-family: -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto serif", serif;
   font-weight: normal;
   font-size: 10.75pt;
   color: black;
@@ -197,9 +209,9 @@ html {
 }
 
 p {
-  font-family: -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 9pt;
-  line-height: 14pt;
+  font-family: "noto serif", serif;
+  font-size: 9.5pt;
+  line-height: 15pt;
   /*text-align: justify;*/
   margin-bottom: 0pt;
   letter-spacing: 0.2pt;
@@ -224,7 +236,7 @@ p:first-of-type {
 }
 
 .Kolophon p {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-size:8pt;
 }
 
@@ -239,7 +251,9 @@ p.ador { text-indent: 0; margin-left: 1.6pc; margin-top: 9pt }
 p.adorno { text-indent: 12px; margin-left: 1.6pc; margin-bottom: 9pt}
 p.start { text-indent: 0em; margin-top: 0em }
 p.divide { text-align: center }
-.author {
+
+
+[data-type="titlepage"] p.author, [data-type="titlepage"] .author {
   color: black;
   font-size: 14pt;
   font-weight: normal;
@@ -269,7 +283,7 @@ table li strong,
 table li .bold,
 table li .Bold,
 table li b {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-weight: 700;
 }
 
@@ -300,7 +314,7 @@ strong em {
 }
 
 var {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-weight: normal;
 }
 
@@ -327,7 +341,7 @@ blockquote {
   display: block;
   width: 80%;
   position: relative;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-size: 11pt;
   vertical-align: baseline;
   margin-top: 9pt;
@@ -338,7 +352,7 @@ blockquote {
 }
 
 blockquote:before {
-  font-family: -apple-system,BlinkMacSystemFont,"noto serif",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto serif", serif;
   content: "“";
   font-size: 4em;
   left: -45px;
@@ -355,6 +369,10 @@ blockquote p {
   font-style: normal;
 }
 
+blockquote strong {
+  font-weight: 600;
+}
+
 blockquote  p.att { text-align: right; }
 
 h2, h2 strong,
@@ -362,7 +380,7 @@ h3, h3 strong,
 h4, h4 strong,
 h5,
 h6 {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans medium",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   margin-top: 1.5em;
   color: rgb(15,100,167);
   font-weight: normal;
@@ -390,7 +408,7 @@ h1 strong { font-weight: normal;}
 
 h2 {
   font-size: 15pt;
-  font-family: "noto sans medium", helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   text-transform: none;
   font-weight: normal;
   /*margin: 1.5em 0 1.2em 0;*/
@@ -406,7 +424,7 @@ h3 {
   page-break-inside: avoid;
   page-break-after: avoid;
   font-weight: normal;
-  margin-bottom: 6pt;
+  margin-bottom: 9pt;
 }
 
 h4 {
@@ -419,11 +437,11 @@ h4 {
 }
 
 h5 {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family : "noto sans", helvetica neue, arial, sans-serif;
+  font-weight: 600;
   font-size: 10pt;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
+  margin-top: 20pt;
+  margin-bottom: 5pt;
   color: black;
   page-break-inside: avoid;
   page-break-after: avoid;
@@ -495,7 +513,7 @@ figure img {
 
 
 figure figcaption {
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   margin-top: 0;
   font-style: normal;
   color: black;
@@ -566,7 +584,7 @@ ul {
     float: left;
 }
 
-ol {
+/*ol {
   display: block;
   list-style-type: decimal;
   margin-top: 1em;
@@ -576,17 +594,36 @@ ol {
   padding-left: 40px;
   font-size: 9pt;
   line-height: 14pt;
+}*/
+
+ol {
+    counter-reset: foo;
+    display: table;
+    font-size: 9pt;
+    line-height: 14pt;
+    margin: 1em 0;
+    padding-left: 1.9em;
 }
 
-a {
-  color: black;
-  text-decoration: none;
+ol li {
+    list-style: none;
+    counter-increment: foo;
+    display: table-row;
+    margin: 0;
+    padding: 0;
+}
+
+ol li::before {
+    content: counter(foo) ".";
+    display: table-cell;
+    text-align: left;
+    padding-right: .28em;
 }
 
 table {
   margin: 0 auto;
   width: 99% !important;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   background-size: 8pt;
   page-break-inside: avoid;
   margin-top: 9pt;
@@ -648,7 +685,7 @@ table li,
 table ol {
   font-size: 8pt;
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   text-align: left;
   text-indent: 0;
 }
@@ -709,7 +746,7 @@ table + p + p {
   margin-top: 18pt;
 }
 
-.pagination-header:nth-of-type(odd) {
+/*.pagination-header:nth-of-type(odd) {
   text-align: right;
 }
 
@@ -791,7 +828,8 @@ table + p + p {
 
 .pagination-empty .pagination-pagenumber {
   display: none;
-}
+}*/
+
 
 section[data-type="toc"] h1.toc {
   font-size: 26pt;
@@ -847,13 +885,12 @@ section[data-type="toc"] a:after {
   font-size: 10pt;
 }
 
-[data-name="bookintro1"] {
-  margin-bottom: 12pt;
+/*  margin-bottom: 12pt;
 }
 
 [data-name="bookintro2"] {
   margin-bottom: 22pt;
-}
+}*/
 
 [data-name="image-full100"] {
   width: 100%;
@@ -874,11 +911,11 @@ section[data-type="toc"] a:after {
   margin-left: 0em;
 }
 
-div.article-body > h2:first-child {
+div.article-body > h2:first-child, div.Kolophon > h2:first-child {
   margin-top: 0pt;
 }
 
-h2 + h2, h2 + h3, h3 + h4 {
+h2 + h2, h2 + h3, h3 + h4, h4 + h5 {
   margin-top: -5pt;
 }
 
@@ -886,26 +923,51 @@ h2 + p {
   margin-top: -5pt;
 }
 
-h3 + p, h4 + p {
+h3 + p, h4 + p, h5 + p {
  margin-top: -3pt;
 }
 
-h2+p, h3+p {
+h2 + p /* h3+p*/ {
     page-break-after: avoid;
 }
 
-section[data-type="chapter"] {
- /* break-before: page; */
-}
-
 section[data-type="chaptertitle"] {
- break-before: right;
-}
+  page-break-after: always; }
+  section[data-type="chaptertitle"] > h1 {
+    page-break-before: right;}
+  section[data-type="chaptertitle"].rghtitle > h1 {
+    page-break-before: right; }
+  /*  section[data-type="chaptertitle"].open > h1:before {
 
-section[data-type="chapter"] {
- break-after: always;
+      left: 100%;
+       }*/
+
+       section[data-type="chapter"] {
+         page-break-after: always; }
+
+
+
+
+/* break-before: : always;
  break-before: left;
 }
+
+
+
+ section[data-type="sect1"] {
+  page-break-after: always; }
+  section[data-type="sect1"] > h1 {
+    page-break-before: always;
+    white-space: pre-line; }
+  section[data-type="sect1"].secret > h1 {
+    page-break-before: left; }*/
+
+
+
+section[data-type="toc"]  {
+  page-break-before: right;
+}
+
 
 section[data-type="frontmatter"] {
  break-after: always;
@@ -938,7 +1000,7 @@ section[data-type="fm2"] table + p {
   word-spacing: 0.2pt;
 }
 
-.txtnospace p {
+.txtnospace p, p.txtnospace {
   letter-spacing: 0.1pt !important;
   word-spacing: 0.2pt !important;
 }
@@ -953,7 +1015,7 @@ h2 {
   -epubx-flow-into: header;
   -epubx-flow-options: exclusive static last;
   text-transform: none;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-weight: normal;
   font-style: italic;
   /* text-align: right; */
@@ -969,7 +1031,7 @@ h2 {
   -epubx-flow-into: booktitle;
   -epubx-flow-options: exclusive static last;
   text-transform: none;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-weight: normal;
   font-style: italic;
   /* text-transform: uppercase !important; */
@@ -977,6 +1039,28 @@ h2 {
   letter-spacing: 0.2pt;
   word-spacing: 1px;
 }
+
+/* running footer locations .footerurlRight,.footerurlLeft, */
+ .hypothes {
+   -epubx-flow-into: hypothes;
+   -epubx-flow-options: exclusive static last;
+
+  text-align: center;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-size: 7.5pt;
+  font-style: normal;
+}
+
+.release {
+  -epubx-flow-into: release;
+  -epubx-flow-options: exclusive static last;
+  text-align: center;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
+  font-size: 7.5pt;
+  font-style: normal;
+}
+
+
 
 /* styling pieces */
 
@@ -986,7 +1070,7 @@ h2 {
   position: absolute;
   bottom: 8mm;
   text-align: center;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-size: 9pt;
   font-style: italic;
 }
@@ -1003,28 +1087,18 @@ ol.upper-latin {
   top: 9mm;
 }
 
-/* running footer locations */
-.footerurlRight {
+.footer {
   height: 13pt;
   position: absolute;
-  content: "Kommentar mit hypothes.is DOI https://doi.org/10.25815/6f4j-aq15";
   bottom: 7.25mm;
   text-align: center;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
+  font-family: "noto sans", helvetica neue, arial, sans-serif;
   font-size: 7.5pt;
   font-style: normal;
+  color: red;
 }
 
-.footerurlLeft {
-  height: 13pt;
-  position: absolute;
-  content: "Pre-release v1.0";
-  bottom: 7.25mm;
-  text-align: center;
-  font-family: -apple-system,BlinkMacSystemFont,"noto sans",helvetica neue,helvetica,roboto,segoe ui,arial,sans-serif;
-  font-size: 7.5pt;
-  font-style: normal;
-}
+
 
 /* flows */
 
@@ -1068,15 +1142,34 @@ ol.upper-latin {
   background-size: cover;
 }
 
-/*@-epubx-page-master second-page-backcover {
-  -epubx-page: 12;
-  background-size: cover;
-}
-
 @-epubx-page-master second-page-backcover {
   -epubx-page: 14;
   background-size: cover;
 }
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 20;
+  background-size: cover;
+}
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 30;
+  background-size: cover;
+}
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 58;
+  background-size: cover;
+}
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 82;
+  background-size: cover;
+}
+@-epubx-page-master second-page-backcover {
+  -epubx-page: 86;
+  background-size: cover;
+}
+
+/*
+
+
 
 @-epubx-page-master second-page-backcover {
   -epubx-page: 18;
@@ -1217,15 +1310,28 @@ ol.upper-latin {
   }
 
   /* footer url left */
+ @-epubx-partition class(footer) {
+    -epubx-flow-from: release;
+    -epubx-enabled: -epubx-expr( page-number % 2==0 ? 'true': 'false');
+    left: 67mm;
+  }
+  /* footer url right */
+ @-epubx-partition class(footer) {
+    -epubx-flow-from: hypothes;
+    -epubx-enabled: -epubx-expr( page-number % 2==1 ? 'true': 'false');
+    left: 34mm;
+  }
+
+  /* footer url left
    @-epubx-partition class(footerurlLeft) {
       -epubx-enabled: -epubx-expr( page-number % 2==0 ? 'true': 'false');
       left: 67mm;
-    }
-    /* footer url right */
+    }*/
+    /* footer url right
    @-epubx-partition class(footerurlRight) {
       -epubx-enabled: -epubx-expr( page-number % 2==1 ? 'true': 'false');
       left: 34mm;
-    }
+    }*/
 
 
 
